@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 24 21:57:51 2021
 
-@author: PC
+@author: Suna Ayhan
 """
 
 import cv2
