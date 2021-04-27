@@ -1,8 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr 26 21:57:31 2021
+
+@author: Suna Ayhan
+"""
+
+import pandas as pd
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 import time
-import pandas as pd
 
 OPENCV_OBJECT_TRACKERS = {"csrt"      : cv2.TrackerCSRT_create,
 		                  "kcf"       : cv2.TrackerKCF_create,
@@ -123,6 +131,36 @@ if len(track_df) != 0:
     plt.ylabel("Öklid mesafesi btw gt ve track")
     error = np.sum(np.sqrt((gt_center_x-track_df_center_x)**2 + (gt_center_y-track_df_center_y)**2 ))
     print("Toplam hata: ",error)
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
 
 
 
